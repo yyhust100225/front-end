@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+.header-nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 1px 3px rgba(18,18,18,.1);
+    -moz-box-shadow: 0 1px 3px rgba(18,18,18,.1);
+    -o-box-shadow: 0 1px 3px rgba(18,18,18,.1);
+    -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1);
+    padding-left: 10%;
+}
+
+.header-nav .logo {
+    height: 60px;
+    margin-right: 30px;
+}
+
+.header-nav .logo a {
+}
+
+.header-nav .logo img {
+    height: 50px;
+}
+
+.layui-nav .layui-nav-item a {
+    color: #0C0C0C;
+}
+
+.layui-nav .layui-this a
+,.layui-nav .layui-nav-item a:hover{
+    color: #000000;
+}
+
+.layui-nav-bar, .layui-nav .layui-this:after, .layui-nav-tree .layui-nav-itemed:after {
+    height: 2px;
+    background-color: #0C0C0C;
+}
+
+.layui-container {
+    margin-top: 10px;
+    background-color: #fff;
+    border: solid 1px #f2f2f2;
+}
